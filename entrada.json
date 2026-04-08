@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "João Silva",
+        "email": "joao@email.com",
+        "idade": 35,
+        "saldo": 12000,
+        "perfil": "investidor"
+    },
+    {
+        "nome": "Maria Souza",
+        "email": "maria@email.com",
+        "idade": 28,
+        "saldo": 3000,
+        "perfil": "poupador"
+    },
+    {
+        "nome": "Carlos Lima",
+        "email": "carlos@email.com",
+        "idade": 45,
+        "saldo": 50000,
+        "perfil": "alto_padrao"
+    }
+]
