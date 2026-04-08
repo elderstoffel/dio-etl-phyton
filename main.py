@@ -49,4 +49,16 @@ for cliente in dados:
 with open("resultado.json", "w", encoding="utf-8") as arquivo:
     json.dump(resultado, arquivo, indent=4, ensure_ascii=False)
 
-print("Pronto! Arquivo resultado.json gerado.")
+print("Dados salvos no arquivo resultado.json.")
+
+
+print("\n=== RESULTADO FINAL ===\n")
+
+for item in resultado:
+    print("Nome:", item["nome"])
+    print("Email:", item["email"])
+    print("Mensagem:", item["mensagem"])
+    print("------------------------")
+
+print("\n=== JSON GERADO ===\n")
+print(json.dumps(resultado, indent=4, ensure_ascii=False))   
